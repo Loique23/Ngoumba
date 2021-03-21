@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{ 
+           margin: 0;
+ 		   padding: 0;
+		 box-sizing: border-box;
+		 text-decoration: none;
+		}
+h2{
+ 	text-align: left;
+ } 
+ .header{
+ width: 100%;
+ padding: 20px 100px;
+
+ color: white;
+ background-color: blue;
+ border-bottom: 5px solid black;
+ position: fixed;
+ 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .menu-li{
+ 	text-align: center;
+ 	list-style: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+ }
+ .menu{
+ 	padding: 0 35px;
+ }
+ .header-logo a{
+ text-align: right;
+ font-size: 32px;
+ background-color:white;
+ border-radius: 10px;
+ }
+	 h1{
+	 	font-family: Arial;
+	 	font-weight: 25px;
+	 	font-size: 35px;
+	 	text-align: center;
+	 	color: blue;
+	 }
+	 .service {
+    text-align: center;
+     }
+
+    .service>* {
+    margin-bottom: 40px;
+   }
+
+   .service img {
+    max-width: 700px;
+   }
+
+   .service-text {
+	text-align: center;
+    font-size: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: blue;
+
+   }
+   .section-4{
+ display: flex;
+ color:grey;
+ }
+ .contact {
+ margin-right: 40px;
+ }
+ .info-icon{
+ margin-top: 30px;
+ }
+ .info-icon i{
+ color: brown;
+ margin-right: 20px;
+ }
+ .info-icon > * {
+ margin-top: 10px;
+ }
+ form > * {
+ margin-bottom: 20px;
+
+ }
+ .inline{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ }
+ .inline:first-child {
+ margin-right: 10px;
+ }
+ input {
+ /* font: 15px/24px, sans-serif; */
+ color: grey;
+ width: 250px;
+ /* box-sizing: border-box; */
+ letter-spacing: 1px;
+
+ font-size: 20px;
+ line-height: 20px;
+ padding: 5px;
+ }
+ textarea{
+ color:grey;
+ /* width: 250px; */
+ /* box-sizing: border-box; */
+ letter-spacing: 1px;
+
+ font-size: 20px;
+ line-height: 20px;
+ padding: 5px;
+ }
+ /* Fin de Section 4 */
+
+	</style>
+</head>
+<body>
+	<header class="header">
+ 	<h2>NG-Service</h2>
+ 	<div>
+ 		<ul class="menu-li">
+ 			<li class="menu"><a href="Accueil.html">Accueil</a></li>
+ 			<li class="menu"><a href="Contact.html"target="_self">Contact</a></li>
+ 			<li class="menu"><a href="Mes services.html">Mes services</a></li>
+ 			<li class="menu"><a href="Conseil.html">Conseil</a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="header-logo">
+ 		<a href="#">NG-Service</a>
+ 	</div>
+ </header>
+	<h1>Contact</h1>
+	<section class="service">
+        <img src="https://picsum.photos/1000/500" alt="image">
+        <p class="service-text">Vous souhaiter faire passer votre projet a la vitesse superieur, mais il vous manque des compétences? Parlons-en! </p>
+    </section>
+ <section class="section-4">
+  <div class="formulaire">
+ <form action="#" method="post">
+ <h2>Contacter Nous</h2>
+ <div class="inline">
+ <input type="text" name="name" placeholder="Name">
+ <input type="email" name="email" placeholder="Email">
+ </div>
+ <div>
+ <input type="text" name="subject" placeholder="Subject">
+ </div>
+ <div>
+ <textarea name="message" cols="50" rows="10" placeholder="Describe"></textarea>
+ </div>
+ <button class="btn" type="submit">SEND MESSAGE</button>
+ </form>
+ </div>
+ </section>
+</body>
+</html>

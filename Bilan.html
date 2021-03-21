@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mon premier site</title>
+	<meta charset="utf-8">
+ <style type="text/css">
+ 	* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ /* font-size: 16px; */
+ }
+ .header{
+ width: 100%;
+ padding: 20px 100px;
+
+ color: white;
+ background-color: blue;
+ border-bottom: 5px solid black;
+ position: fixed;
+ 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ h2{
+ 	text-align: left;
+ }
+ .menu-li{
+ 	text-align: center;
+ 	list-style: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+ }
+ .menu{
+ 	padding: 0 35px;
+ }
+ .header-logo a{
+ text-align: right;
+ font-size: 32px;
+ background-color:white;
+ border-radius: 10px;
+ }
+ .section-1{
+ background-image: url('img.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 600px;
+ font-size: 30px;
+ padding-top: 100px;
+ text-align: center;
+ }
+.about{
+	padding: 20px;
+ 	color: blue;
+ 	font-size: 50px;
+ }
+ .force{
+ 	color: white;
+ 	font-size: 25px;
+ 	font-family: arial;
+ 	margin-right: 79px;
+    margin-left: 77px;
+ }
+ .btn{
+ padding: 20px;
+ border-radius: 15px;
+ background-color: blue;
+ color: white;
+ display: inline-block;
+ margin-top: 20px;
+ }
+ .section-2{
+ 	color: white;
+ 	text-align: center;
+ 	padding-top: 20px;
+
+ }
+ .ho{
+ 	color: black;
+ 	font-size: 25px;
+
+ }
+ .pa{
+ 	color:grey;
+ 	margin-right: 80px;
+    margin-left: 80px;
+    font-size: 25px;
+ }
+ .btn2{
+ padding: 20px;
+ border-radius: 15px;
+ background-color:black;
+ color: white;
+ display: inline-block;
+ margin-top: 20px;
+ }
+ .about {
+    background-color: rgb(26, 62, 138);
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.child {
+    background-color: rgb(8, 18, 41);
+    margin: 20px 10px;
+}
+
+.child img {
+    height: 350px;
+    width: 100%;
+    max-width: 512px;
+}
+
+.child-content {
+    padding: 20px 30px;
+}
+
+.child-title {
+    color: rgb(139, 165, 210);
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.child-text {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.child-btn {
+    padding: 10px 8px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(139, 165, 210);
+    border-radius: 10px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service>* {
+    margin-bottom: 40px;
+}
+
+.service-title {
+	text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.service img {
+    max-width: 700px;
+}
+
+.service-text {
+	text-align: center;
+    font-size: 25px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+.service-btn {
+	margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+.footer {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+ </style>
+</head>
+<body>
+ <header class="header">
+ 	<h2>NG-Service</h2>
+ 	<div>
+ 		<ul class="menu-li">
+ 			<li class="menu"><a href="#"></a><u> Accueil </u></li>
+ 			<li class="menu"><a href="Contact.html"target="_self">Contact</a></li>
+ 			<li class="menu"><a href="Mes_services.html">Mes services</a></li>
+ 			<li class="menu"><a href="#"></a>Conseil</li>
+ 		</ul>
+ 	</div>
+ 	<div class="header-logo">
+ 		<a href="#">NG-Service</a>
+ 	</div>
+ </header>
+ <section class="section-1">
+ 	<h1 class="about">Innovez a l'ère du numerique </h1>
+ 	<br>
+ 	<p class="force">Les technologies numeriques boulversent les secteurs </p>
+ 	<p class="force">traditionnels et en creent de nouveaux. Cette revolution est </p>
+ 	<p class="force"> porteuse de nombreuses opportunites, mais aussi de defis.</p>
+ 	<p class="force">Etes-vous pret a les affronter ? </p>
+ 	<a href="#" class="btn">En savoir plus</a>
+ </section>
+ <section class="section-2">
+ 	<h1 class="ho">Travailler avec moi </h1>
+ 	<br>
+ 	<p class="pa"> Besoin d'une personne compétente et qualifiée pour vous accompagner dans la réalisation de</p>
+ 	<p class="pa">votre projet ? Vous avez frappé a la bonne porte. Mon travail consiste a comprendre vos objectifs</p>
+ 	<p class="pa">et a trouver la solution adaptée a vos besoins. Contactez-moi !</p>
+ 	<a href="#" class="btn2">NG-Service</a>
+ </section>
+  <section class="about">
+        <div class="container">
+            <div class="child">
+                <img src="https://picsum.photos/1000/500" alt="image">
+                <div class="child-content">
+                    <h2 class="child-title">Mes valeurs</h2>
+                    <p class="child-text">Je me donne toujours a 100% dans mon travail. Chaque fois que j'accepte un nouveau projet, je vérifie qu'il résonne avec mes valeurs pour etre sur de fournir des resultats exeptionnels.</p>
+                    <button class="child-btn">En savoir plus</button>
+                </div>
+            </div>
+            <div class="child">
+                <img src="https://picsum.photos/1000/500" alt="image">
+                <div class="child-content">
+                    <h2 class="child-title">Mes clients</h2>
+                    <p class="child-text">Grace a mon experience, mon serieux et mon approche orientée résultat, j'ai eu la chance de travailler avec de nombreux clients d'exception.</p>
+                    <button class="child-btn">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <h2 class="service-title">Mes clients</h2>
+        <img src="https://picsum.photos/1000/500" alt="image">
+        <p class="service-text">Je suis passioné par mon travail et cela n'est un secret pour personne.Ma plus grande satisfaction ? Pouvoir aider mes clients a reussir. Vous trouverez ici toutes les informations sur mes prestations et la facon dont je peux vous accompagner.</p>
+        <a href="test.html" class="service-btn">En savoir plus</a>
+    </section>
+
+    <footer class=" footer ">
+        <p>Created by <span class="text-red ">Loique24</span> &copy; 2021, All right reserved. -- NG-Service</p>
+    </footer>
+ 	
+ </section>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>la suite du site</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+* {
+background-color:blue; 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ /* font-size: 16px; */
+ }
+ h2{
+    text-align: left;
+ } 
+ .header{
+ width: 100%;
+ padding: 20px 100px;
+
+ color: white;
+ background-color: blue;
+ border-bottom: 5px solid black;
+ position: fixed;
+ 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .menu-li{
+    text-align: center;
+    list-style: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+ }
+ .menu{
+    padding: 0 35px;
+ }
+ .header-logo a{
+ text-align: right;
+ font-size: 32px;
+ background-color:white;
+ border-radius: 10px;
+ }
+ .h1{
+ 	color: white;
+ 	font-size: 40px;
+ 	text-align: left;
+ 	padding-top: 25px;
+ 	margin-left: 20px;
+ }
+ .about {
+    background-color: rgb(26, 62, 138);
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+.child {
+    background-color: rgb(8, 18, 41);
+    margin: 20px 10px;
+}
+
+.child img {
+    height: 350px;
+    width: 100%;
+    max-width: 512px;
+}
+
+.child-content {
+    padding: 20px 30px;
+}
+
+.child-title {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.child-text {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+	</style>
+</head>
+<body>
+    <header class="header">
+    <h2>NG-Service</h2>
+    <div>
+        <ul class="menu-li">
+            <li class="menu"><a href="Accueil.html">Accueil</a></li>
+            <li class="menu"><a href="Contact.html"target="_self">Contact</a></li>
+            <li class="menu"><a href="Mes services.html">Mes services</a></li>
+            <li class="menu"><a href="Conseil.html">Conseil</a></li>
+        </ul>
+    </div>
+    <div class="header-logo">
+        <a href="#">NG-Service</a>
+    </div>
+ </header>
+<h1 class="h1">Mes services</h1>
+<section class="about">
+        <div class="container">
+            <div class="child">
+                <img src="https://picsum.photos/1000/500" alt="image">
+                <div class="child-content">
+                    <h2 class="child-title">NG-Service</h2>
+                    <p class="child-text">Trouvons ensemble la solution adaptée a vos besoins. 
+                    Voici une liste détaillée de mes services qui vous permettra de trouver ce qui vous convient. Contactez-moi si vous avez des questions ou hésitations, je serai ravi(e) de vous aider.</p>
+                </div>
+            </div>
+            <div class="child">
+                <img src="https://picsum.photos/1000/500" alt="image">
+                <div class="child-content">
+                    <h2 class="child-title">NG-Service</h2>
+                    <p class="child-text">Vous souhaitez en savoir plus sur mes services? Aider les personnes comme vous est ce qui me motive au quotidien. Découvrez ici comment pouvons collaborer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

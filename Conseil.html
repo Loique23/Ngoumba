@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>conseil</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ /* font-size: 16px; */
+}
+ h2{
+ 	text-align: left;
+ } 
+ .header{
+ width: 100%;
+ padding: 20px 100px;
+
+ color: white;
+ background-color: blue;
+ border-bottom: 5px solid black;
+ position: fixed;
+ 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .menu-li{
+ 	text-align: center;
+ 	list-style: none;
+    color: white;
+    display: flex;
+    font-size: 20px;
+ }
+ .menu{
+ 	padding: 0 35px;
+ }
+ .header-logo a{
+ text-align: right;
+ font-size: 32px;
+ background-color:white;
+ border-radius: 10px;
+ }
+		/* Section 3 */
+ .team-title {
+ font-size: 30px;
+ text-align: center;
+ /* text-decoration: underline; */
+ /* text-decoration-color: brown; */
+ /* margin-bottom: 30px; */
+ }
+ .team-grid {
+ margin-top: 50px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 20px;
+ }
+ .team-item{
+ padding: 20px 10px;
+ background-color: rgba(12, 11, 11, 0.87);
+ color: white;
+ }
+ .team-item-name{
+ padding: 10px 0;
+ }
+ .image {
+ display: block;
+ max-width: 100%;
+ height: auto;
+ border: 5px solid brown;
+ }
+ .image--center {
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .image--circle {
+ border-radius: 50%;
+ }
+ .team-sub-title {
+ font-weight: 400;
+ color: brown;
+ position: relative;
+ }
+
+ .team-sub-title:before {
+ position: absolute;
+ content: '';
+ /* width: 200px; */
+ left: 40%;
+ right: 40%;
+ top: 12px;
+ background: black;
+ height: 3px;
+ }
+ .team-sub-title i {
+ font-style: normal;
+ background: #fff;
+ position: relative;
+ padding: 10px;
+ }
+ /* Fin de Section 3 */
+  /* Section 4 */
+ .section-4{
+ display: flex;
+ }
+ .contact {
+ margin-right: 40px;
+ }
+ .info-icon{
+ margin-top: 30px;
+ }
+ .info-icon i{
+ color: brown;
+ margin-right: 20px;
+ }
+ .info-icon > * {
+ margin-top: 10px;
+ }
+ form > * {
+ margin-bottom: 20px;
+ }
+ .inline{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ }
+ .inline:first-child {
+ margin-right: 10px;
+ }
+ input {
+ /* font: 15px/24px, sans-serif; */
+ color: #333;
+ width: 250px;
+ /* box-sizing: border-box; */
+ letter-spacing: 1px;
+
+ font-size: 20px;
+ line-height: 20px;
+ padding: 5px;
+ }
+ textarea{
+ color: #333;
+ /* width: 250px; */
+ /* box-sizing: border-box; */
+ letter-spacing: 1px;
+
+ font-size: 20px;
+ line-height: 20px;
+ padding: 5px;
+ }
+ /* Fin de Section 4 */
+
+	</style>
+ <script src="https://kit.fontawesome.com/ac6858618c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+ 	<h2>NG-Service</h2>
+ 	<div>
+ 		<ul class="menu-li">
+ 			<li class="menu"><a href="Accueil.html">Accueil</a></li>
+ 			<li class="menu"><a href="Contact.html"target="_self">Contact</a></li>
+ 			<li class="menu"><a href="Mes services.html">Mes services</a></li>
+ 			<li class="menu"><a href="Conseil.html">Conseil</a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="header-logo">
+ 		<a href="#">NG-Service</a>
+ 	</div>
+ </header>
+ <section class="section-3">
+ <h2 class="team-title">Mes Conseils</h2>
+ 
+
+ <div class="team-grid text-center">
+ <div class="team-item">
+ <img class="image image--circle image--center" src="https://picsum.photos/100/100" alt="">
+ <h2 class="team-item->name">Coaching</h2>
+ <p>Développez vos compétences.</p>
+ </div>
+ <div class="team-item">
+ <img class="image image--circle image--center" src="https://picsum.photos/100/100" alt="">
+ <h2 class="team-item-name">Stratégie</h2>
+ <p>Planifiez votre réussite.</p>
+ </div>
+ <div class="team-item">
+ <img class="image image--circle image--center" src="https://picsum.photos/100/100" alt="">
+ <h2 class="team-item-name">Analyse</h2>
+ <p>Devenez la meilleure version de vous-meme.</p>
+ </div>
+ </div>
+ </section>
+<section class="section-4">
+ <div class="contact">
+ <h2>NG-Service</h2>
+ <p>NG-Service est une agence de services informatique sans consultants permanents. Nous travaillons exclusivement avec des conseillers et des consultants indépendants et fournissons toujours les services de conseil informatique dont nos clients ont besoin.
+
+Nous vous délivrons un expert expérimenté, qui connaît votre secteur et, bien sûr, les possibilités techniques, ainsi que les différents systèmes et solutions. Cela signifie que nos consultants en informatique ajoutent de la valeur à votre entreprise dès le premier jour. Si nécessaire, nous pouvons bien entendu vous fournir une équipe d’experts.</p>
+
+ <div class="info-icon">
+ <p><i class="fa fa-user"></i>NGOUMBA-DITOGNO</p>
+ <p><i class="fa fa-location-arrow"></i> HLM 4, 1603 Dakar Sénégal</p>
+ <p><i class="fa fa-envelope"></i> 0loiquengoumba@gmail.com</p>
+ </div>
+ </div>
+ <div class="formulaire">
+ <form action="#" method="post">
+ <h2>Message Me</h2>
+ <div class="inline">
+ <input type="text" name="name" placeholder="Name">
+ <input type="email" name="email" placeholder="Email">
+ </div>
+ <div>
+ <input type="text" name="subject" placeholder="Subject">
+ </div>
+ <div>
+ <textarea name="message" cols="50" rows="10" placeholder="Describe"></textarea>
+ </div>
+ <button class="btn" type="submit">SEND MESSAGE</button>
+ </form>
+ </div>
+ </section>
+</body>
+</html>
